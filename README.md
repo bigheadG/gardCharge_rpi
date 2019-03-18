@@ -17,11 +17,11 @@ Nonetheless, GardCharge as Data-Acquisition Unit
 (for Voltage / Current / Power data sensing) alone for Raspberry Pi 
 may perform for various IoT applications.
 
-# measure data:
+# Measure data:
     Voltage , Current , Watt , mAH
 
-# install bluepy
-    $sudo install bluepy
+# Install bluepy
+    $sudo pip3 install bluepy
     
 # Hardware:
     raspberry pi 3 model B
