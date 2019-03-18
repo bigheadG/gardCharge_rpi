@@ -23,9 +23,12 @@ may perform for various IoT applications.
 # install bluepy
     $sudo install bluepy
     
-Test on: 
+# Hardware:
     raspberry pi 3 model B
     raspberry pi 3 model A+
+    or build in BLE raspberry pi
+    
+    GC101 - USB Power Meter hardware device
     
 # Gardcharge BLE Service & Characteristic:
     tx_service_UUID          = "FFF0"
@@ -33,4 +36,10 @@ Test on:
     rx_service_UUID          = "FFE0"
     rx_Characteristic_UUID   = "FFE2" (notification)
 
+# python package:
+    TKinter
+    bluepy
 
+# Example program:
+    gardcharge.py :Show voltage,current,watt & charge capacity in terminal
+    GardCharge_GUI.py :Show voltage,current,watt & charge capacity in GUI
