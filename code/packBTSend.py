@@ -15,9 +15,6 @@ class Gdefine:
 	CMD_READ_CONFIG_2 = 14
 	CMD_OFFLINE_ENABLE = 17
 	
-	
-	
-	
 class packBTSend:	
 	flow = 0			
 	def packTXdata(self,mode,data):
