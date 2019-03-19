@@ -21,8 +21,7 @@ install bluepy
 $sudo install bluepy
 
 Test on: raspberry pi 3 model B
-		 raspberry pi 3 model A+
-
+	raspberry pi 3 model A+
 
 BLE Gardcharge BLE Service:
 
