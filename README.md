@@ -48,3 +48,11 @@ Detailed information please reference:
 # Example program:
     gardcharge.py :Show voltage,current,watt & charge capacity in terminal
     GardCharge_GUI.py :Show voltage,current,watt & charge capacity in GUI
+
+# gardcharge.py screen shot:
+
+![alt text](https://github.com/bigheadG/gardCharge_rpi/blob/master/gardcharge.png)
+
+# GardCharge_GUI.py screen shot:
+
+![alt text](https://github.com/bigheadG/gardCharge_rpi/blob/master/gui.png)
