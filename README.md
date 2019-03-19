@@ -24,10 +24,9 @@ may perform for various IoT applications.
     $sudo pip3 install bluepy
     
 # Hardware:
+
     raspberry pi 3 model B
     raspberry pi 3 model A+
-    or build in BLE raspberry pi
-    
     GC101 - USB Power Meter hardware device
 
 # Communication Protocol:
