@@ -29,7 +29,12 @@ may perform for various IoT applications.
     or build in BLE raspberry pi
     
     GC101 - USB Power Meter hardware device
+
+# Communication Protocol:
+Detailed information please reference:
     
+    /Doc/USBCurrentProjectDocE619.pdf
+  
 # Gardcharge BLE Service & Characteristic:
     tx_service_UUID          = "FFF0"
     tx_Characteristic_UUID   = "FFF5"
