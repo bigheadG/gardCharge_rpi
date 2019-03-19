@@ -21,7 +21,7 @@ install bluepy
 $sudo install bluepy
 
 Test on: raspberry pi 3 model B
-		 raspberry pi 3 model A+
+	raspberry pi 3 model A+
 
 
 BLE Gardcharge BLE Service:
@@ -41,7 +41,7 @@ import threading
 import tkinter
 from tkinter import *
 from bluepy import btle
-import packBTSend as pks
+#import packBTSend as pks
 
 
 btle_peri = None
@@ -52,7 +52,7 @@ chHandlerDict = {}
 gui = Tk()
 gui.title("Gard Charger beta")
 
-pk = pks.packBTSend()
+#pk = pks.packBTSend()
 
 class ScanDelegate(btle.DefaultDelegate):
 	def __init__(self):
@@ -195,6 +195,7 @@ def ble_scan():
 		print("Scanner Scan exception")
 
 on = 0
+'''
 def ble_onOff():
 	global btle_peri
 	global CHAR_UUID
@@ -217,7 +218,7 @@ def ble_onOff():
 		except:
 			print("Exception----")
 			pass
-
+'''
 def ble_pairing():
 	x = readDeviceInfo()
 	words = x.split(";")   
