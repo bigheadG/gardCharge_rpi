@@ -21,8 +21,9 @@
 # USB GardCharge Protocol:
 
 GardCharge GC101 will send out 20 bytes per second after BLE pairing. the 20 bytes data includes command and data.
-In the demo example we get the data from GC101 via BLE. In mode 0x4a,periodic echo(page 5 of 12), can get all 
-of parameters such as voltage, current, charge capacitance, resistance and timer cut-off time for use depends your application. The 20 bytes data structure as following:
+In the demo example we will get the data from GC101 via BLE. For example: In mode 0x4a,periodic echo(page 5 of 12),
+can get all of parameters such as voltage, current, charge capacitance, resistance and timer cut-off time for use 
+depends your application. The 20 bytes data structure description as following:
 
         //*************************************************************************************
         //* MODE 0x4A := echo device status per 1 sec periodically
@@ -40,7 +41,7 @@ of parameters such as voltage, current, charge capacitance, resistance and timer
         buf[0] := h : Header
         buf[1] := f : flow number
         buf[2] := m : mode
-        buf[19]:= T : tail
+        buf[19]:= T : Tail
         //*************************************************************************************
     
     
