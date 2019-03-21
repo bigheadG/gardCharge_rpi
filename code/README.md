@@ -1,5 +1,8 @@
 gardcharge.py
 
+This is a Python example program for Raspberry Pi reading GardCharge Power Parameter values (voltage, current, power, etc.)
+ via Bluetooth.
+
 # import bluepy
     from bluepy import btle
 # Connect to GC101
