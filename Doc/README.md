@@ -1,3 +1,6 @@
+This is a Python example program for Raspberry Pi reading GardCharge Power Parameter values (voltage, current, power, etc.) 
+via Bluetooth.
+
 # Gardcharge BLE Service:
 
     tx_service_UUID          = "FFF0"
