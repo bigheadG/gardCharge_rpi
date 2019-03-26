@@ -1,4 +1,6 @@
-
+#
+#Code is under develop for control GC101
+#
 class Gdefine:
 	CMD_DRIVE = 1,
 	CMD_CUTOFF_TIME = 2
