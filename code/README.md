@@ -1,15 +1,15 @@
-The following example is use Raspberry pi3's BLE to pair Gardcharge(GC101) and moniting Unit for chagre relative parameter.
-
+This is a Python example program for Raspberry Pi reading GardCharge Power Parameter values (voltage, current, power, etc.)
+ via Bluetooth.
+ 
 (1)gardcharge.py: show volt/amp/watt/capacity/ohm in terminal
 
 (2)GardCharge_GUI.py: show volt/amp/watt/capacity/ohm use tkinter GUI package
-
+  use packages: bluepy, tkinter
+  
 (3)GardCharge_GUI_plot.py: show volt/amp/watt/capacity live update chart use matplotlib.animation package
-
-gardcharge.py
-
-This is a Python example program for Raspberry Pi reading GardCharge Power Parameter values (voltage, current, power, etc.)
- via Bluetooth.
+  use packages: bluepy, tkinter, matplotlib 
+  
+## (1)gardcharge.py
 
 # import bluepy
     from bluepy import btle
