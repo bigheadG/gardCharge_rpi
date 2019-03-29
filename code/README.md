@@ -13,7 +13,7 @@ This is a Python example program for Raspberry Pi reading GardCharge Power Param
 
      use packages: bluepy, tkinter, matplotlib 
   
-## (1)gardcharge.py
+# (1)gardcharge.py
 
 # import bluepy
     from bluepy import btle
