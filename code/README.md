@@ -3,6 +3,8 @@ This is a Python example program for Raspberry Pi reading GardCharge Power Param
  
 (1)gardcharge.py: show volt/amp/watt/capacity/ohm in terminal.
 
+     use packages: bluepy
+
 (2)GardCharge_GUI.py: show volt/amp/watt/capacity/ohm use tkinter GUI package.
 
  				use packages: bluepy, tkinter
