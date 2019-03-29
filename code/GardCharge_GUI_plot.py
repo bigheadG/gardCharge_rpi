@@ -324,7 +324,7 @@ if __name__ == '__main__':
 	
 	#onOff = Button(text = "ON/OFF", command = ble_onOff, width = 8).place(x =360, y = 460)
 	
-	plt.title("Power Comsumption Waveform")
+	plt.title("Power Consumption Waveform")
 		
 	plt.legend()
 	plt.grid(linestyle='--', linewidth=0.5, alpha=0.5)
