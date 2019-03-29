@@ -55,3 +55,8 @@ Detailed information please reference:
 # GardCharge_GUI.py screen shot:
 
 ![alt text](https://github.com/bigheadG/gardCharge_rpi/blob/master/gui.png)
+
+# GardCharge_GUI_plot.py screen shot:
+
+![alt text](https://github.com/bigheadG/gardCharge_rpi/blob/master/2019-03-29-042316_640x514_scrot.png)
+
