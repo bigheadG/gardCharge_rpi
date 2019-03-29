@@ -1,7 +1,9 @@
 The following example is use Raspberry pi3's BLE to pair Gardcharge(GC101) and moniting Unit for chagre relative parameter.
 
 (1)gardcharge.py: show volt/amp/watt/capacity/ohm in terminal
+
 (2)GardCharge_GUI.py: show volt/amp/watt/capacity/ohm use tkinter GUI package
+
 (3)GardCharge_GUI_plot.py: show volt/amp/watt/capacity live update chart use matplotlib.animation package
 
 gardcharge.py
