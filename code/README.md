@@ -7,11 +7,11 @@ This is a Python example program for Raspberry Pi reading GardCharge Power Param
 
 (2)GardCharge_GUI.py: show volt/amp/watt/capacity/ohm use tkinter GUI package.
 
- 				use packages: bluepy, tkinter
+     use packages: bluepy, tkinter
   
 (3)GardCharge_GUI_plot.py: show volt/amp/watt/capacity live update chart use matplotlib.animation package.
 
- 				use packages: bluepy, tkinter, matplotlib 
+     use packages: bluepy, tkinter, matplotlib 
   
 ## (1)gardcharge.py
 
