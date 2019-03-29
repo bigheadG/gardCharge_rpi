@@ -47,6 +47,7 @@ Detailed information please reference:
 # Example program:
     gardcharge.py :Show voltage,current,watt & charge capacity in terminal
     GardCharge_GUI.py :Show voltage,current,watt & charge capacity in GUI
+    GardCharge_GUI_plot.py :Updating power consumption real time wavefrom
 
 # gardcharge.py screen shot:
 
