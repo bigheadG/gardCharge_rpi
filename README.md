@@ -1,5 +1,9 @@
 # gardCharge for rpi
 
+![Platform](https://img.shields.io/badge/Raspberry-Pi3-orange.svg)&nbsp;
+![Language](https://img.shields.io/badge/python-%3E3.0%20-green.svg)&nbsp;
+![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)
+
 This is a Beta Python software for enabling GardCharge GC101 
 Smart USB Timer Charger Protector or GardCharge GC101PM Smart
 USB Power Meter hardware device to work as Data-Acquisition
